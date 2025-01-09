@@ -18,7 +18,7 @@ warnings.filterwarnings('ignore')
 
 nlp = spacy.load('en_core_web_sm')
 
-dat = "MecoL2_11.csv" # No Estonian
+dat = "data/MecoL2_11.csv" # No Estonian
 raw = pd.read_csv(dat)
 
 # MinMax scale eye tracking measures
