@@ -1,4 +1,5 @@
 require(osfr)
+require(tidyverse)
 # eyetracking data
 data <- osf_retrieve_file("https://osf.io/bf2q9") %>%
   osf_download(path = "data",
