@@ -150,6 +150,7 @@ for text_id, text in enumerate(texts):
     spearmanps.extend(local_ps)
     
 df = pd.DataFrame({"Position": word_pos, "Spearman's":spearmanrs, "p":spearmanps, "text":text_ids, "lang":lang_list})
+df.to_csv("results/pos_results.csv")
 
 p=(
     ggplot(
