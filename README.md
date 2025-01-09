@@ -39,4 +39,3 @@ Run POS analysis
 Run rolling correlation
 `python rolling_correlation.py`
 
-Change your working directory to this directory, and run `sh main.sh`.
