@@ -21,3 +21,5 @@ The R scripts additionally require the following packages:
 Spacy additionally requires an English model, you could run `python -m spacy download en_core_web_sm` to install.
 
 ### 3. Run `main.sh` 
+
+Change your working directory to this directory, and run `sh main.sh`.
